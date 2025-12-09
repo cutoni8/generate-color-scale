@@ -24,13 +24,10 @@ function App() {
   return (
     <div className="h-screen bg-neutral-950 flex items-center justify-center py-8 px-4 overflow-hidden">
       <div className="max-w-4xl w-full mx-auto">
-        <h1 className="text-3xl font-bold text-white text-center mb-2">
+        <h1 className="text-3xl font-bold text-white text-center mb-12">
           Color Scale Generator
         </h1>
-        <p className="text-neutral-400 text-center text-sm mb-6">
-          Generate a Tailwind-style color scale from any base color
-        </p>
-      
+    
         {/* Color Input */}
         <div className="flex flex-col items-center justify-center gap-3 mb-6">
           <div className="relative flex items-center gap-3 bg-neutral-900/80 backdrop-blur-sm rounded-xl p-3 border border-neutral-700/50 shadow-xl shadow-black/20">
